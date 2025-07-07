@@ -1,0 +1,9 @@
+streamlit
+mysql-connector-python
+psycopg2-binary
+pandas
+SQLAlchemy
+langchain
+langchain-core
+langchain-community
+langchain-google-genai

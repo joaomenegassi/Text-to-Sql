@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Streamlit
+.streamlit/
+# Pode ser necessário ignorar o diretório local de cache do Streamlit, se ele for usado.
+# .streamlit/cache/
+
+# Dependências
+# Se você tiver um diretório para dependências específicas do projeto, pode ignorá-lo.
+# deps/
+
+# Logs e Dados Gerados
+*.log
+*.sqlite3 # Para bancos de dados SQLite locais
+*.db # Para outros arquivos de banco de dados genéricos
+data/ # Se você tiver um diretório para dados temporários ou gerados
+
+# Arquivos de Configuração Sensíveis (NÃO COMIQUE SUAS CREDENCIAIS!)
+.env # Variáveis de ambiente
+config.ini
+secrets.toml # Se estiver usando toml para configurações de segredos
+# Ou especificamente para chaves de API:
+google_api_key.txt
+
+# IDEs e Ferramentas
+.idea/ # PyCharm
+.vscode/ # VS Code
+.direnv/
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Jupyter Notebooks (se aplicável)
+.ipynb_checkpoints
+
+# Outros
+*.zip
+*.tar.gz
